@@ -8,7 +8,7 @@ run:
 setup:
 	/usr/bin/env python -m venv venv
 	chmod +x venv/bin/activate
-	venv/bin/pip3 install -r requirements.txt && \
+	venv/bin/pip3 install -r requirements.txt
 	chmod +x run.py
 	@printf "\n"
 	@printf 'run \"source venv/bin/activate\" to activate virtual environment'
